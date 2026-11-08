@@ -44,65 +44,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Chargebee**
-
-  **Subscription billing with advanced invoicing** and usage-based pricing. **Pricing**: **Flow PAYG $0 + 0.80% of monthly invoicing**, or **$99 + 0.65%**; includes **100M usage events/month**; break-even at **$66K/month invoicing**; Enterprise adds multi-entity and account hierarchy with NetSuite/Salesforce as paid add-ons . **Free tier**: No free plan; former Starter allowance retired . **Best for**: SaaS and subscription businesses with complex usage, credits, or hybrid billing models—**trade-off**: percentage-of-revenue pricing scales with invoicing volume; a company invoicing $500K/month pays ~$40K/year .
-
-
-
-- **Stripe Invoicing**
-
-  **One-time invoicing with smart features**. **Pricing**: **Starter 0.4% per paid invoice**; **Plus 0.5% per paid invoice** adds Smart Retries, quotes, and auto-reconciliation; **only charged when invoices are paid through Stripe**—unpaid, voided, or bad-debt invoices incur no fee . **Free tier**: No fixed fees or setup costs . **Best for**: businesses wanting simple one-time invoicing without subscription commitment—**trade-off**: recurring billing requires Stripe Billing (separate pricing); payment processing fees (2.9% + $0.30 for cards) are additional .
-
-
-
-- **Tipalti**
-
-  **AP automation and mass payments** with AI invoice processing. **Pricing**: **Select starting at $99/month** (unlimited users, supplier portal, AI Smart Scan, W9/TIN validation, ERP integrations); **Advanced $199/month** adds PO matching, multi-entity, 50+ payment methods to 200+ countries; **Elevate** adds global multi-currency and FX hedging; **Accelerate** for embedded payee onboarding . **Free tier**: None. **Best for**: mid-market to enterprise companies needing global payee onboarding and mass payments—**trade-off**: transaction pricing per invoice and payment stacks on subscription; no per-user fees—scales with transactions, not headcount .
-
-
-
-- **Bill.com**
-
-  **AP automation** with domestic payment rails. **Pricing**: **Team tier $65/user/month** (10-seat team = $650/month); **ACH/ePayment $0.59**, **mailed check $1.99**, **virtual card free**, **international USD wire $19.99**; **failed ACH fee $50**, void check $25 . **Free tier**: None. **Best for**: US-based businesses wanting AP workflow with strong domestic rails and PO matching—**trade-off**: transaction fees accumulate with check volume; international payments run on domestic rails with FX markup .
-
-
-
-- **AvidXchange**
-
-  **AP automation for mid-market** with supplier network. **Pricing**: **Quote-only**; transaction fees tiered (e.g., $6.50–$7.50 per transaction over multi-year terms); **Minimum Transaction Fee** applies monthly; annual increase capped at 5% or CPI . **Free tier**: None. **Best for**: mid-market companies wanting AP automation with supplier network—**trade-off**: minimum transaction commitments; multi-year contracts.
-
-
-
-- **Invoiced**
-
-  **Accounts receivable automation** with REST API. **Pricing**: **Sales-led; custom quotes**; historically ~$100/month Basic and ~$500/month Advanced; **Advanced A/R and Enterprise A/R** packages quoted; REST API included with subscription, not metered separately . **Free tier**: None. **Best for**: mid-market companies wanting A/R automation with API access—**trade-off**: pricing opaque post-Flywire acquisition; evaluation requires sales engagement.
-
-
-
-- **Maxio**
-
-  **Billing and revenue management** for SaaS. **Pricing**: **Grow $599/month** (up to $100K monthly billings); **Scale** quote-only (over $100K monthly billings); **unlimited users at no additional charge** . **Free tier**: None. **Best for**: SaaS companies under $100K/month billings wanting predictable pricing—**trade-off**: Scale tier requires quote; no free tier.
-
-
-
-- **Zuora**
-
-  **Enterprise subscription billing** and monetization. **Pricing**: **Quote-only**; Software Advice lists starting at **$1.00/year** (placeholder/limited) ; reviewers note "expensive pricing structure" . **Free tier**: None. **Best for**: large enterprises with complex subscription models—**trade-off**: implementation complexity; expensive.
-
-
-
-- **HighRadius**
-
-  **Order-to-cash automation** with outcome-based pricing. **Pricing**: **$0 implementation fees**; **$0 fees until go-live**; post-go-live pricing tied to **agreed KPI improvements (gain share %)** . **Free tier**: No upfront cost model. **Best for**: enterprises wanting risk-aligned pricing on credit and receivables automation—**trade-off**: gain-share model requires KPI agreement; complex procurement.
-
-
-
-- **Quadient AP**
-
-  **AP automation** for invoice capture and approvals. **Pricing**: **$2,000–$10,000/year** for small business; **$10,000–$30,000** mid-sized; **$30,000–$50,000+** enterprise; **$40,000–$100,000+** for advanced AI/multi-entity . **Free tier**: None. **Best for**: organizations wanting transparent AP pricing bands—**trade-off**: implementation and integration costs add to software pricing.
+| Product | Company Scale (Valuation / Revenue / Market Cap) | Starting Tier Pricing | Free Tier / Trial Limits | Category & Key Details |
+| :--- | :--- | :--- | :--- | :--- |
+| **Stripe Invoicing** | **$159B Valuation** (Private; secondary tender) / ~$14B+ Rev | Starter: **0.4% per paid invoice** (or Plus: 0.5% per paid invoice) | **Free forever plan**: $0/mo fixed fees with 25 free invoices per month; fees apply only when invoices are paid through Stripe | AR invoicing platform with auto-reconciliation, Smart Retries, and quote workflows. |
+| **Tipalti** | **$8.3B Valuation** (Private Series F) / ~$150M+ ARR | Select tier starting at **$99/month** (transaction fees per payment/invoice apply) | **No free tier or public free trial**; evaluation requires a scheduled sales demo or private developer sandbox | AP automation & global mass payments across 200+ countries with AI OCR and supplier onboarding. |
+| **Bill.com** | **~$4.4B Market Cap** (NYSE: BILL) / ~$1.3B Annual Rev | Essentials/Team tier starting at **$45–$65/user/month** (plus ACH/check per-transaction fees) | **30-day free trial** with full feature access (bills, invoices, sync workflows, up to standard transaction limits) | Domestic AP automation, invoice approval routing, and two-way accounting synchronization. |
+| **Chargebee** | **$3.5B Valuation** (Private Series H) / ~$200M+ ARR | Flow PAYG starting at **$0/month + 0.80% of monthly invoicing** (or Starter/Base at $99/month + 0.65% with 100M events/mo) | **Unlimited free sandbox environment** (no card required, test catalogs & simulated payments); startup plan free up to $1M cumulative billings | Recurring subscription billing, hybrid usage-based metering, and customer revenue management. |
+| **HighRadius** | **$3.1B Valuation** (Private Series C) / ~$300M+ ARR | **$0 implementation & $0 subscription fees until go-live**; post-launch pricing tied to gain-share % on agreed KPI improvements (or custom annual licensing starting ~$50K/year) | **No free tier or public self-serve trial**; requires private sales consultation and enterprise guided demo | AI-driven autonomous order-to-cash, accounts receivable, and cash application platform. |
+| **Flywire (Invoiced)** | **~$2.5B Market Cap** (Parent: FLYW, acquired Invoiced for $55M) / ~$700M+ Rev | Custom quote-based packages starting historically around **$100–$500/month** plus per-transaction processing | **No public free tier or automated trial**; custom enterprise sandbox environment provided upon sales request | B2B accounts receivable automation, multi-currency customer billing portals, and global payment rails. |
+| **AvidXchange** | **~$2.1B Valuation** (Acquisition / Taken Private) / ~$400M+ Rev | Custom quote tiers with estimated entry starting around **$440–$500/month** ($5,000–$6,000/year plus transaction fees around $6.50–$7.50/tx) | **No free tier or self-serve trial**; customized walkthrough and demo environment only through sales | Mid-market AP automation and supplier payment network integrated with major accounting systems. |
+| **Zuora** | **$1.7B Buyout Valuation** (Acquired by Silver Lake / GIC) / ~$450M+ Rev | Enterprise custom quote-only pricing (starting license typically ~$1,000+/month or customized annual contracts) | **No free tier or open trial**; Developer/API sandbox available for partners and enterprise testing limited to 5,000 records & 10,000 calls/day | Enterprise-grade subscription billing, recurring monetization, and complex revenue recognition. |
+| **Quadient AP** | **~$1.2B Enterprise Value** / ~€500M ($540M) Market Cap (Euronext: QDT) / ~€1.04B ($1.1B) Rev | Small-business tier starting at **$2,000/year** (~$166/month) scaling up to $10,000+/year based on invoice volume | **No free tier or self-serve trial**; product evaluation only via customized live sales demos and webinars | Automated accounts payable workflows, OCR invoice capture, and PO approval routing. |
+| **Maxio** | **~$150M+ Growth Equity Backing** (Battery Ventures; Chargify + SaaSOptics) / ~$50M+ ARR | Grow tier starting at **$599/month** (covers up to $100K/month in billing volume) | **Build developer plan ($0 free sandbox)** with full API & mock gateway access; plus **30-day evaluation trial** upon qualification | Subscription billing, SaaS metrics, CPQ, and revenue management for B2B SaaS organizations. |
 
 
 
