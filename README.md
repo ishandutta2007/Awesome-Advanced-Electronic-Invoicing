@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Advanced-Electronic-Invoicing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Advanced-Electronic-Invoicing?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Advanced-Electronic-Invoicing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Advanced-Electronic-Invoicing?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Advanced-Electronic-Invoicing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Advanced-Electronic-Invoicing?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Advanced-Electronic-Invoicing/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Advanced-Electronic-Invoicing?color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Advanced-Electronic-Invoicing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
@@ -67,7 +67,7 @@ The table below provides transparency across category leaders, sorted by **compa
 
 Explore the premier open-source and self-hosted invoicing, billing APIs, and accounting projects. Sorted strictly by **GitHub Stargazers (descending)**.
 
-| 📦 Repository & Project | ⭐ GitHub Stars | 💻 Tech Stack | 📜 License | 🎯 Highlights & Capabilities |
+| 📦 Repository & Project | ⭐ GitHub_Stars | 💻 Tech Stack | 📜 License | 🎯 Highlights & Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Midday](https://github.com/midday-ai/midday)** | [![Midday Stars](https://img.shields.io/github/stars/midday-ai/midday?style=social&color=white)](https://github.com/midday-ai/midday/stargazers) | TypeScript, Next.js, Tailwind, Supabase | MIT License | Invoicing, automated bank reconciliation, financial overview, storage, and AI assistant built for modern businesses and freelancers. |
 | **[Lago](https://github.com/getlago/lago)** | [![Lago Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Ruby on Rails, Go, React, PostgreSQL | AGPL-3.0 | Open-source metering and usage-based billing API engine. Consumption tracking, complex subscription management, and payment orchestration. |
@@ -91,7 +91,7 @@ Contributions are warmly encouraged! To propose a new SaaS solution or open-sour
 3. 📝 Update `README.md` keeping the sorted ranking format intact. Include:
    - Tool name & official repository / website link
    - Verified pricing or license details
-   - Accurate company scale or GitHub star badge
+   - Accurate company scale or GitHub Stars_Badge
 4. 🚀 Push your branch and open a **Pull Request** with a brief summary of the addition.
 
 ---
